@@ -1,0 +1,132 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "827c0169-a46b-46ca-a947-42199d87b183")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "コピ丼の試作"
+		(exclude_from_sim no)
+		(at 179.07 167.64 0)
+		(size 85.09 11.43)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "ＭＳ Ｐゴシック")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "3ebeea8e-a78b-4e01-8a02-33252f4261f7")
+	)
+	(sheet
+		(at 36.83 20.32)
+		(size 30.48 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee28bde7-59f3-4c8b-89de-cd3cf2e9f39a")
+		(property "Sheetname" "MD1-1_Card1"
+			(at 36.83 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MD1-1_Card.kicad_sch"
+			(at 36.83 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+batt" input
+			(at 36.83 25.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6fb50b00-fb62-48fc-81cc-abe463ee4ef4")
+		)
+		(pin "GNDSig" input
+			(at 67.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7fcf234d-7e0a-4c63-bd5a-cf60a6894676")
+		)
+		(pin "GND" input
+			(at 36.83 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2b101bf1-fa30-4103-9c05-45653660e451")
+		)
+		(pin "+3.3V" input
+			(at 67.31 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b7dd9882-0495-4eb8-ac98-6347cdd3b296")
+		)
+		(pin "Rear-Sig" input
+			(at 67.31 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "041f1dc7-35c7-4fb3-b47f-650f558c65f7")
+		)
+		(pin "Forward-Sig" input
+			(at 67.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1388f671-6053-4caf-b41c-f5c836212087")
+		)
+		(instances
+			(project "MD1-1"
+				(path "/827c0169-a46b-46ca-a947-42199d87b183"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
